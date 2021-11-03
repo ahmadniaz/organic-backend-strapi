@@ -112,7 +112,3 @@ exports
 *.cache
 build
 .strapi-updater.json
-<<<<<<< HEAD
-package-lock.json
-=======
->>>>>>> 1c5e86b (ReUploading to git repo)
