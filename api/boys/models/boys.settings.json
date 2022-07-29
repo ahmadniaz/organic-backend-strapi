@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boys",
+  "info": {
+    "name": "Boys"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "quantity": {
+      "type": "biginteger"
+    },
+    "categories": {
+      "via": "boys",
+      "collection": "category"
+    }
+  }
+}

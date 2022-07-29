@@ -18,6 +18,26 @@
     "products": {
       "via": "categories",
       "collection": "product"
+    },
+    "men": {
+      "collection": "men",
+      "via": "categories",
+      "dominant": true
+    },
+    "women": {
+      "collection": "women",
+      "via": "categories",
+      "dominant": true
+    },
+    "boys": {
+      "collection": "boys",
+      "via": "categories",
+      "dominant": true
+    },
+    "girls": {
+      "collection": "girls",
+      "via": "categories",
+      "dominant": true
     }
   }
 }
